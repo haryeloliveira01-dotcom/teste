@@ -15,7 +15,7 @@ app.get("/player/:tag", async (req, res) => {
       `https://api.brawlstars.com/v1/players/${tag}`,
       {
         headers: {
-          Authorization: "Bearer SUA_API_KEY"
+          Authorization: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjJlM2VjNGQwLWMwNDktNDhmYS05MGZkLTBkZmJiOTQ0OGYzMyIsImlhdCI6MTc3NDg3MjMzMywic3ViIjoiZGV2ZWxvcGVyLzY2ZDQ0NTkwLWI5YzAtZDA1Yy04MGYzLWI4Mjg4MjliNTM5OSIsInNjb3BlcyI6WyJicmF3bHN0YXJzIl0sImxpbWl0cyI6W3sidGllciI6ImRldmVsb3Blci9zaWx2ZXIiLCJ0eXBlIjoidGhyb3R0bGluZyJ9LHsiY2lkcnMiOlsiMC4wLjAuMCJdLCJ0eXBlIjoiY2xpZW50In1dfQ.LjaW6ZysZEeWYwtPwDBP-xoJNt9NNO6mLaKqW-xBi8SIYy8WXkt2__6mjPoEg7djWhZweFFrgmH7rSQz7dnv6A"
         }
       }
     );
